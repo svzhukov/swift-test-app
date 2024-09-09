@@ -16,7 +16,7 @@ class ViewControllerMain: UIViewController {
     var output: ViewOutput!
     
     required init?(coder aDecoder: NSCoder) {
-        fatalError("storyboard init not used")
+        fatalError("should be not used")
     }
     
     init(output: ViewOutput) {

@@ -21,7 +21,7 @@ class ServiceMain: ServiceInterface {
     func getData(completion: @escaping (String) -> Void) {
         print("Function: \(#function), line: \(#line)")
         DispatchQueue.main.asyncAfter(deadline: .now() + self.delay) {
-            completion("hello world")
+            completion("hello BIG world")
         }
     }
 }
